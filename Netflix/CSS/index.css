@@ -1,0 +1,265 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #404545;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#landing_page
+{
+    height: 100vh;
+    background-image:url(../Images/Assets/Images/Home_background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    row-gap: 150px;
+}
+#nav_bar
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+#Logo
+{
+    height: 50px;
+    width: 150px;
+    margin-left: 100px;
+}
+#nav_left_items{
+    display: flex;
+    flex-direction: row;
+    margin-right: 100px;
+}
+#signin
+{
+    margin-left: 16px;
+}
+#signin button
+{
+    background-color: #E50914;
+    color: white;
+    height: 30px;
+    width: 72px;
+    font-weight: bold;
+    letter-spacing: 2%;
+    border-radius: 4px;
+    border: none;
+}
+#signin button:hover
+{
+    background-color: #CF000A;
+}
+#Language
+{
+    height: 30px;
+    width: 72px;
+    color: white;
+    background: transparent;
+    border-radius: 4px;
+}
+#Home_content
+{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+#Home_content h1
+{
+    font-size: 40px;
+}
+#Home_content p
+{
+    font-size: 20px;
+}
+#email_input
+{
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    width: 300px;
+    color: lightgrey;
+    font-size: larger;
+    background: transparent;
+    border:1px solid lightgrey;
+    border-radius: 6px;
+}
+#getstarted_bt
+{
+    background-color: #E50914;
+    color: white;
+    font-size: large;
+    width: 180px;
+    height:58px;
+    border-radius: 6px;
+}
+#getstarted_bt i
+{
+    color: white;
+}
+#getstarted_bt:hover
+{
+    background-color: #CF000A;
+}
+#TV
+{
+    margin-top: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 550px;
+    color: white;
+    background-color: black;
+}
+.content h2
+{
+    font-size: 50px;
+}
+.content p
+{
+    font-size: 20px;
+}
+.content_img
+{
+    height: 400px;
+    width: 550px;
+    background-image: url(../Images/Assets/Gifs/Tv_gif.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 84%;
+}
+
+.content_img_2
+{
+    height: 350px;
+    width: 500px;
+}
+#Mobile
+{
+    height: 550px;
+    margin-top: 6px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: black;
+}
+
+.content_img_3
+{
+    height: 400px;
+    width: 600px;
+    
+}
+.content_img_3
+{
+    height: 350px;
+    width: 500px;
+    background-image: url(../Images/Assets/Gifs/peaky_blinders.gif);
+    background-repeat: no-repeat;
+    background-position: 100px 25px;
+    background-size: 60%;
+}
+
+#faq_maindiv
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 200px ;
+    background-color: black;
+    margin-top: 6px;
+}
+
+#faq_maindiv h1
+{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+.faq_subdiv
+{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+   width: 980px;
+    color: white;
+    /* align-items: stretch; */
+    justify-content: center;
+}
+
+#Questions
+{
+    height: 50px;
+    font-size: larger;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 24px;
+    background-color:#3a3a3a;
+    margin-top: 8px;
+}
+#Questions:hover{
+    background-color:#4e5252 ;
+    cursor: pointer;
+}
+#answers,#answers1,#answers2,#answers3,#answers4,#answers5
+{
+    margin-top: 2px;
+    min-height: 50px;
+    font-size: 20px;
+    padding: 16px 16px;
+    background-color:#3a3a3a;
+    text-align: justify;
+}
+* button:hover
+{
+    cursor:pointer;
+}
+
+#answers,#answers1,#answers2,#answers3,#answers4,#answers5
+{
+    display: none;
+    flex-wrap: wrap;
+}
+
+#footer
+{
+    margin-top: 6px;
+    min-height: 350px;
+    color: white;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black ;
+}
+
+#footer_1
+{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    
+}
+#footer a{
+    color: white;
+}
+
+#footer_subdiv
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}

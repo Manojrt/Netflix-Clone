@@ -1,0 +1,229 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#Language
+{
+    height: 30px;
+    width: 72px;
+    color: white;
+    background: transparent;
+    border-radius: 4px;
+}
+#Logo
+{
+    margin-top: 16px;
+    height: 60px;
+    width: 180px;
+    margin-left: 50px;
+}
+#nav_left_items{
+    display: flex;
+    flex-direction: row;
+    margin-right: 100px;
+}
+#Main_div
+{
+    min-height: 120vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(../Images/Assets/Images/Home_background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid rgb(0, 0, 0);
+}
+#sign_in
+{
+    min-height: 600px;
+    width: 400px;
+    margin: 0 auto;
+    padding: 16px;
+    /* border: 2px solid green; */
+    background-color: rgba(0, 0, 0, 0.8);
+}
+#heading
+{
+    color: white;
+    font-size: x-large;
+    padding-left: 32px;
+}
+
+#mail,#pass
+{
+    height: 50px;
+    width: 300px;
+    background-color: #5E5E5E;
+    border: none;
+    border-radius: 6px;
+    padding: 0 16px;
+    color: white;
+}
+#mail::placeholder,#pass::placeholder
+{
+    color: rgb(181, 181, 181);
+    font-size: medium;
+    /* padding: 8px 16px; */
+}
+#mail_warning,#pass_warning
+{
+    color: orange;
+    font-size: 12px;
+    display: none;
+}
+#input_section
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+#sign_in_bt button
+{
+    height: 50px;
+    width: 330px;
+    font-size: medium;
+    font-weight: bold;
+    letter-spacing: 1px;
+    background-color: #E50914;
+    color: white;
+    border-radius: 6px;
+}
+
+#remember_me
+{
+    height: 16px;
+    color: green;
+    background-color: white;
+}
+#checkbox
+{
+    display: flex;
+    align-items: center;
+    padding-left: 32px;
+}
+#need_help p
+{
+    display: inline-block;
+    color: grey;
+}
+#need_help
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 360px;
+}
+#help a{
+    text-decoration: none;
+    color: grey;
+}
+#help a:hover
+{
+    text-decoration: underline;
+    color: grey;
+    cursor: pointer;
+}
+#sign_up
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+    padding: 0 32px;
+}
+#sign_up p
+{
+    color: grey;
+}
+#sign_up a{
+    color: white;
+    font-size: large;
+    text-decoration: none;
+}
+#sign_up a:hover
+{
+    text-decoration: underline;
+}
+#read_more
+{
+    padding: 0 32px;
+    width: 300px;
+    /* border: 2px solid green; */
+}
+#read_more span
+{
+    font-size: 13px;
+    color: grey;
+
+}
+#learn_more:hover
+{
+    text-decoration: underline;
+}
+#Privacy
+{
+    padding: 0 32px;
+    width: 300px;
+    color: grey;
+    font-size: 13px;
+    /* text-align: justify; */
+    display: none;
+    
+}
+#Privacy a
+{
+    color: rgb(34, 34, 253);
+    text-decoration: none;
+}
+#Privacy a:hover
+{
+    text-decoration: underline;
+}
+#footer
+{
+    /* margin-top: 6px; */
+    min-height: 300px;
+    color: white;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    /* backdrop-filter: blur( 11px );
+    -webkit-backdrop-filter: blur( 11px );
+    border-radius: 10px; */
+}
+
+#footer_1
+{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    
+}
+#footer a{
+    color: white;
+    text-decoration: none;
+}
+#footer a:hover
+{
+    text-decoration: underline;
+}
+
+#footer_subdiv
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}

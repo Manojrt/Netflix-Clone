@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix India - Watch TV Shows Online, Watch Movies Online</title>
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      sizes="200x200"
+      href="../Images/Assets/Logo/Favicon.png"
+      type="image/x-icon"
+    />
+    <!-- Css  -->
+    <!-- <link rel="stylesheet" href="../CSS/index.css" /> -->
+
+    <link rel="stylesheet" href="../CSS/Signin.css" />
+  </head>
+  <body>
+    <div id="Main_div">
+      <nav id="nav_bar">
+        <section id="Logo">
+          <a href="../HTML/index.html"
+            ><img
+              src="../Images/Assets/Logo/NteflixLogo.png"
+              width="100%"
+              height="100%"
+          /></a>
+        </section>
+      </nav>
+      <div id="sign_in">
+        <div>
+          <section id="heading">
+            <h1>Sign In</h1>
+          </section>
+          <section id="input_section">
+            <section>
+              <input
+                type="text"
+                name="email"
+                id="mail"
+                placeholder="Email or phone number"
+                autocomplete="none"
+              />
+              <p id="mail_warning">
+                Please enter a valid email address or phone number.
+              </p>
+            </section>
+            <section>
+              <input
+                type="text"
+                name="email"
+                id="pass"
+                placeholder="Password"
+                min="4"
+                max="60"
+              />
+
+              <p id="pass_warning">
+                Your password must contain between 4 and 60 characters.
+              </p>
+            </section>
+
+            <section id="sign_in_bt">
+              <button>Sign In</button>
+            </section>
+          </section>
+        </div>
+        <div id="need_help">
+          <section id="checkbox">
+            <input type="checkbox" name="remember_me" id="remember_me" />
+            <p>Remember me</p>
+          </section>
+          <section id="help">
+            <a href="">Need help?</a>
+          </section>
+        </div>
+        <div id="sign_up">
+          <p>New to Netflix?</p>
+          <a href="../HTML/index.html">Sign up now.</a>
+        </div>
+
+        <div id="read_more">
+          <span>
+            This page is protected by Google reCAPTCHA to ensure you're not a
+            bot.
+          </span>
+          <span id="learn_more" style="color: rgb(34, 34, 253); cursor: pointer"
+            >Learn more.</span
+          >
+        </div>
+
+        <div id="Privacy">
+          <p>
+            The information collected by Google reCAPTCHA is subject to the
+            Google <a href="">Privacy Policy</a> and
+            <a href="">Terms of Service</a> , and is used for providing,
+            maintaining, and improving the reCAPTCHA service and for general
+            security purposes (it is not used for personalised advertising by
+            Google).
+          </p>
+        </div>
+      </div>
+
+      <br /><br /><br /><br />
+
+      <div id="footer">
+        <div id="footer_subdiv">
+          <section id="footer_1">
+            <p>Questions? Call <u id="call">000-800-919-1694</u></p>
+            <a href="#">FAQ</a>
+            <a href="#">Cookie Preferences</a>
+
+            <section id="Dropdown_icon">
+              <select name="Language" id="Language">
+                <option value="English" selected style="color: black">
+                  English
+                </option>
+
+                <option value="Hindi" style="color: black">हिंदी</option>
+              </select>
+            </section>
+          </section>
+          <section id="footer_1">
+            <a href="#">Help Centre</a>
+            <a href="#">Corporate Information</a>
+          </section>
+          <section id="footer_1">
+            <a href="#">Terms of Use</a>
+          </section>
+          <section id="footer_1">
+            <a href="#">Privacy</a>
+          </section>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Font Awesome link -->
+    <script
+      src="https://kit.fontawesome.com/dc1f9ab20d.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--Javascript Link  -->
+    <script src="../JavaScript/index.js"></script>
+
+    <script src="../JavaScript/Signin.js"></script>
+  </body>
+</html>
